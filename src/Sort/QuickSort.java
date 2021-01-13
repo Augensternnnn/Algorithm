@@ -43,7 +43,7 @@ public class QuickSort<T extends Comparable<T>> extends Sort<T> {
                     break;
                 }
             }
-            while (begin < end  ) {
+            while (begin < end) {
                 if(cmp(pivot, array[begin]) > 0)   // 左边元素 < 轴点元素
                     begin++;
                 else {    // 左边元素 >= 轴点元素
